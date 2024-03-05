@@ -1,0 +1,156 @@
+@media screen and (max-width: 768px) {
+ 
+  body {
+    font-size: 14px;
+  
+  }
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #05161a;
+  
+  
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+li {
+  float: left;
+  border-right: 2px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background:  #34b3ac; 
+}
+
+.welcome-section {
+  text-align: center;
+  height: 100vh;
+  font-size: 40px;
+  padding: 450px 0; 
+  background: linear-gradient(45deg, #030f11, #0e3941); 
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  border-bottom: 2px solid #bbb;
+}
+.project-section {
+  text-align: center;
+  font-size: 30px;
+  color:white;
+  padding: 150px 0; 
+  background-color: #012f38; 
+  border-bottom: 2px solid #bbb;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.project-tile {
+  text-decoration: none;
+  color: #fbfbfc;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  width: 100%;
+  max-height: 250px; 
+  object-fit: cover;
+}
+
+.project-title {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color:#34b3ac;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color:#000202;
+}
+.contact-section {
+  text-align: center;
+  font-size: 20px;
+  padding: 300px 0; 
+  background-color:  #030f11;
+  color: #ecf0f1;
+}
+
+.contact-section-header h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center; 
+  
+}
+
+.content-links {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+  
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ecf0f1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color:#34b3ac;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  background-color: #000202;
+  color: #fff; 
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0; /* Increased padding for a taller section */
+  background: linear-gradient(45deg, #030f11, #0e3941); /* Gradient background */
+  color: #ecf0f1;
+  color: #ecf0f1;
+  font-size: 16px;
+  border-top: 2px solid #2c3e50;}
